@@ -68,7 +68,7 @@ class TwentyThree extends StatelessWidget {
                         child: Row(
                           children: [
                             Text(
-                              'An alert that offers even more flexibility and precision...',
+                              'An alert that offers even more flexibility \nand precision...',
                               style: TextStyle(color: Colors.grey),
                             ),
                           ],
@@ -108,7 +108,7 @@ class TwentyThree extends StatelessWidget {
                       child: Row(
                         children: [
                           Text(
-                            'An alert that offers even more flexibility and precision...',
+                            'An alert that offers even more flexibility \nand precision...',
                             style: TextStyle(color: Colors.grey),
                           ),
                         ],
@@ -147,7 +147,7 @@ class TwentyThree extends StatelessWidget {
                       child: Row(
                         children: [
                           Text(
-                            'An alert that offers even more flexibility and precision...',
+                            'An alert that offers even more flexibility \nand precision...',
                             style: TextStyle(color: Colors.grey),
                           ),
                         ],
@@ -186,7 +186,7 @@ class TwentyThree extends StatelessWidget {
                       child: Row(
                         children: [
                           Text(
-                            'An alert that offers even more flexibility and precision...',
+                            'An alert that offers even more flexibility \nand precision...',
                             style: TextStyle(color: Colors.grey),
                           ),
                         ],

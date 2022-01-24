@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:oudpr/screens/twentynine.dart';
 import 'package:oudpr/screens/twentyone.dart';
+import 'package:oudpr/screens/twentyseven.dart';
 import 'package:oudpr/screens/twentysix.dart';
 import 'package:oudpr/screens/twentythree.dart';
 
@@ -58,12 +60,10 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //       builder: (context) =>   SuportPage()),
-
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TwentyOne()),
+                );
               },
             ),
             ListTile(
@@ -76,8 +76,8 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => Setting()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TwentyThree()));
               },
             ),
             ListTile(
@@ -123,8 +123,8 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => AboutUs()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TwentySeven()));
               },
             ),
             SizedBox(
@@ -163,8 +163,8 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => AppPrivacy()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TwentyNine()));
               },
             ),
             SizedBox(
