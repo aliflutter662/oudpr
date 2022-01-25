@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:oudpr/screens/thirty.dart';
+import 'package:oudpr/screens/twentyeight.dart';
 import 'package:oudpr/screens/twentynine.dart';
 import 'package:oudpr/screens/twentyone.dart';
 import 'package:oudpr/screens/twentyseven.dart';
@@ -143,8 +145,8 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => AppPrivacy()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => TwentyEight()));
               },
             ),
             SizedBox(
@@ -183,8 +185,8 @@ class _TwentyState extends State<Twenty> {
                     color: Colors.black),
               ),
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => AppPrivacy()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Thirty()));
               },
             ),
             SizedBox(

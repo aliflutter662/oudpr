@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078528342773",
+    "project_id": "myoudpr",
+    "storage_bucket": "myoudpr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078528342773:android:2b74807f34d104b4f623bc",
+        "android_client_info": {
+          "package_name": "com.example.oudpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078528342773-ud7h1j0kpe53oe3g0mjva373p9ikq7gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC70gJ2OkpV4YNX06Sumx9nADqLIW1NXws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078528342773-ud7h1j0kpe53oe3g0mjva373p9ikq7gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
